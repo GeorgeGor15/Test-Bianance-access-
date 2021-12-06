@@ -12,6 +12,7 @@ EN: It's a small part of the code that implements:
 Binance module is taken from https://github.com/Bablofil/binance-api with few adds
 
 You should save "Futures Watcher.py" and "binance_api.py" in same directory
+You should enter in Text correct API_KEY and API_SECRET before press "Start" button
 
 RU: Это небольшая часть кода в которой реализованы:
 1. Доступ (считывание данных) к бирже Binance через API,
@@ -22,4 +23,6 @@ RU: Это небольшая часть кода в которой реализ
 Модуль Binance взят из https://github.com/Bablofil/binance-api с небольшими дополнениями
 
 Файлы "Futures Watcher.py" и "binance_api.py" должны быть сохранены в одной папке
+Следует ввести в соответствующие текстовые поля коректные API_KEY и API_SECRET перед тем, как нажать кнопку "Start"
 
+![window](https://user-images.githubusercontent.com/95641997/144899284-b2fb6622-0498-4a6c-8fcd-0c277b4ed37a.jpg)

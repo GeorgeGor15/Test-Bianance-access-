@@ -9,7 +9,7 @@ EN: It's a small part of the code that implements:
 3. Working with tkinter widgets, 
 4. Updating Treeview fields with frequent data updates
 5. Creating a timer by running a parallel deamon process
-Binance module is taken from https://github.com/Bablofil/binance-api
+Binance module is taken from https://github.com/Bablofil/binance-api with few adds
 
 RU: Это небольшая часть кода в которой реализованы:
 1. Доступ (считывание данных) к бирже Binance через API,
@@ -17,4 +17,4 @@ RU: Это небольшая часть кода в которой реализ
 3. Работа с виджетами Tkinter,
 4. Обновление полей Treeview при частом обновлении данных,
 5. Создание таймера путем запуска параллельного Deamon процесса.
-Модуль Binance взят из https://github.com/Bablofil/binance-api
+Модуль Binance взят из https://github.com/Bablofil/binance-api с небольшими дополнениями

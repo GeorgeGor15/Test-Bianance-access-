@@ -25,4 +25,5 @@ RU: Это небольшая часть кода в которой реализ
 Файлы "Futures Watcher.py" и "binance_api.py" должны быть сохранены в одной папке
 Следует ввести в соответствующие текстовые поля коректные API_KEY и API_SECRET перед тем, как нажать кнопку "Start"
 
-![window](https://user-images.githubusercontent.com/95641997/144899284-b2fb6622-0498-4a6c-8fcd-0c277b4ed37a.jpg)
+![window](https://user-images.githubusercontent.com/95641997/144902786-5c11f9d9-83d5-46e6-b925-84c7b127e8d4.jpg)
+

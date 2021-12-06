@@ -1,6 +1,8 @@
 # Test-Bianance-access-
 It's a small part of code to connect to API Binance and check balances
 
+Project created on Python 3.10.0, Windows 10
+
 EN: It's a small part of the code that implements:
 1. access (data reading) to Binance via API, 
 2. Reading personal (your accaunt) and shared data from Binance,

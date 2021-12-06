@@ -27,3 +27,8 @@ RU: Это небольшая часть кода в которой реализ
 
 ![window](https://user-images.githubusercontent.com/95641997/144902786-5c11f9d9-83d5-46e6-b925-84c7b127e8d4.jpg)
 
+
+No donation or anything is needed at all, but if you found the code useful, I'll shamelessly leave a few of my addresses below:
+
+XRP (Ripple): rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh, MEMO: 108338326
+WAVES: 3P3SMBtuJLf5NaNM75sNVYycW2SUUPGhDdp

@@ -24,10 +24,18 @@ RU: Это небольшая часть кода в которой реализ
 
 Файлы "Futures Watcher.py" и "binance_api.py" должны быть сохранены в одной папке.<BR>
 Следует ввести в соответствующие текстовые поля коректные API_KEY и API_SECRET перед тем, как нажать кнопку "Start".
-
+    
+## Code<BR>
+dependencies: 
+`from tkinter import *`
+`import threading`
+`import time`
+`import datetime`
+<BR>
+## Window<BR>
 ![window](https://user-images.githubusercontent.com/95641997/144902786-5c11f9d9-83d5-46e6-b925-84c7b127e8d4.jpg)
 
-
+## Contributions are welcome<BR>
 No donation or anything is needed at all, but if you found the code useful, I'll leave a few of my addresses below:<BR>
 <BR>
 XRP (Ripple): rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh, MEMO: 108338326<BR>

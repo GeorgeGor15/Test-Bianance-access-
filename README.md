@@ -27,14 +27,62 @@ RU: Это небольшая часть кода в которой реализ
     
 ## Code<BR>
 ```Python
-#dependencies: 
+#dependencies "Futures Watcher.py": 
 from tkinter import *
 import threading
 import time
 import datetime
+
+#dependencies "binance_api.py": 
+import ssl
+import time
+import json
+import urllib
+import hmac, hashlib
+import requests
+
+from urllib.parse import urlparse, urlencode
+from urllib.request import Request, urlopen
 ```
 <BR>
     
+```Python
+#Binance API:
+    #private const
+API_KEY_Str = str(app.text_AK.get(1.0,'end-1c'))
+API_SECRET_Str = str(app.text_AS.get(1.0,'end-1c'))
+
+    #reading private data
+    #data to display user balances and Futures positions
+myListAcc = bot.account()
+BnFAcc = bot.futuresBalance()
+BnFAcc = bot.futuresAccount()
+BnFAcc=bot.userPositionInfo()
+    
+    #reading non-private data
+    #get last 5 1minute klines BTC/USDT Spot pare
+myTupSpK =('klines', bot.klines(symbol='BTCUSDT', interval='1m', limit=5)) #Tupl
+    #get last 5 1minute klines BTC/USDT Futures pare
+myTupFtK = ('futuresKlines', bot.futuresKlines(symbol='BTCUSDT', interval='1m', limit=5)) #tupl
+    #get 5 orders from Order Book BTC/USDT Spot pare
+myTup_DSp = ('depth', bot.depth(symbol='BTCUSDT', limit=5)) #tupl
+    #get 5 orders from Order Book BTC/USDT Futures pare
+myTup_DFt = ('FutDepth', bot.futuresDepth(symbol='BTCUSDT', limit=5)) #tupl
+
+```
+    
+```Python
+#Threading:
+    #should timer work or not const
+PS_BU = True
+should_run_BU = True
+    #run timer
+timer_BU = threading.Thread(target=timer_BTCUSDT,daemon=True)
+timer_BU.start()
+
+```
+        
+
 ## Window<BR>
 ![window](https://user-images.githubusercontent.com/95641997/144902786-5c11f9d9-83d5-46e6-b925-84c7b127e8d4.jpg)
 

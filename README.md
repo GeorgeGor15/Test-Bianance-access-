@@ -28,6 +28,30 @@ RU: Это небольшая часть кода в которой реализ
 Следует ввести в соответствующие текстовые поля коректные API_KEY и API_SECRET перед тем, как нажать кнопку "Start".
     
 ## Code<BR>
+#### Architecture:
+    
+2 files: "binance_api.py" - for requests Binance API, "Futures Watcher.py" - Tkinter gui
+    
+#### "Futures Watcher.py" architecture:
+    
+1. import modules<BR>
+2. global const<BR>
+3. class timer_BTCUSDT: - Deamon Thread as Timer<BR>
+    3.1 check is Timer should run or stop<BR>
+    3.2 check if Timer just started is APIs correct<BR>
+    3.3 if TImers isn't just started then pause (time.sleep(0.5))<BR>
+    3.4 Reading BTC/USDT kllines and calculate low and high price for the last 5 minutes<BR>
+    3.5 Reading account and balances<BR>
+    3.6 Reading Futures positions. Reload data in Listbox. Load/update data in Treeview<BR>
+4. def click_button_Timer(): - Click button Start/Stop<BR>
+5. class gui: - GUI<BR>
+    5.1 def __init__(self, window): -  - Load Tkinter widgets<BR>
+    5.2 def Sys_Msg(self,text1): -  - Insert test in to Text box<BR>
+6. SET GUI<BR>
+7. SET Bot and test connect to Binance<BR>
+8. def config(event): - window resize event<BR>
+    
+inside the code:    
 ```Python
 #dependencies "Futures Watcher.py": 
 from tkinter import *

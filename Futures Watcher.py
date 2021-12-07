@@ -193,8 +193,6 @@ class timer_BTCUSDT:
                             BnFAcc1 = BnFAcc[mm]
                             sTmp=''
                             if float(BnFAcc1['positionAmt']) != 0:
-                                sTmp += '\n userPositionInfo баланс: ' + str(BnFAcc1['symbol']) + ". PnL: " + str(BnFAcc1['unRealizedProfit']) + ". entryPrice: " +  str(BnFAcc1['entryPrice'])
-                                sTmp += ". positionSide: " +  str(BnFAcc1['positionSide'])
                                 sTmp = str(BnFAcc1['symbol']) + ". PnL: " + str(BnFAcc1['unRealizedProfit']) + ". entryPrice: " +  str(BnFAcc1['entryPrice'])
                                 sTmp += ". positionSide: " +  str(BnFAcc1['positionSide'])
                                 app.List_Ord.insert(END, sTmp)

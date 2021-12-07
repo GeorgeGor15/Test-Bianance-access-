@@ -26,12 +26,15 @@ RU: Это небольшая часть кода в которой реализ
 Следует ввести в соответствующие текстовые поля коректные API_KEY и API_SECRET перед тем, как нажать кнопку "Start".
     
 ## Code<BR>
-dependencies: 
-`from tkinter import *`
-`import threading`
-`import time`
-`import datetime`
+```Python
+#dependencies: 
+from tkinter import *
+import threading
+import time
+import datetime
+```
 <BR>
+    
 ## Window<BR>
 ![window](https://user-images.githubusercontent.com/95641997/144902786-5c11f9d9-83d5-46e6-b925-84c7b127e8d4.jpg)
 

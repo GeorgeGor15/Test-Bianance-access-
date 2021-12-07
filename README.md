@@ -86,13 +86,13 @@ BnFAcc = bot.futuresAccount()
 BnFAcc=bot.userPositionInfo()
     
     #reading non-private data
-    #get last 5 1minute klines BTC/USDT Spot pare
+    #get last 5 1minute klines BTC/USDT Spot pair
 myTupSpK =('klines', bot.klines(symbol='BTCUSDT', interval='1m', limit=5)) #Tupl
-    #get last 5 1minute klines BTC/USDT Futures pare
+    #get last 5 1minute klines BTC/USDT Futures pair
 myTupFtK = ('futuresKlines', bot.futuresKlines(symbol='BTCUSDT', interval='1m', limit=5)) #tupl
-    #get 5 orders from Order Book BTC/USDT Spot pare
+    #get 5 orders from Order Book BTC/USDT Spot pair
 myTup_DSp = ('depth', bot.depth(symbol='BTCUSDT', limit=5)) #tupl
-    #get 5 orders from Order Book BTC/USDT Futures pare
+    #get 5 orders from Order Book BTC/USDT Futures pair
 myTup_DFt = ('FutDepth', bot.futuresDepth(symbol='BTCUSDT', limit=5)) #tupl
 
 ```

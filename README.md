@@ -9,6 +9,7 @@ EN: It's a small part of the code that implements:
 3. Working with tkinter widgets: Label, Button, Text, Treeview, Listbox, Scrollbar;
 4. Updating Treeview fields with frequent data updates
 5. Creating a timer by running a parallel deamon process
+    
 Binance module is taken from https://github.com/Bablofil/binance-api with few adds
 
 You should save "Futures Watcher.py" and "binance_api.py" in same directory.<BR>
@@ -20,6 +21,7 @@ RU: Это небольшая часть кода в которой реализ
 3. Работа с виджетами Tkinter: Label, Button, Text, Treeview, Listbox, Scrollbar;
 4. Обновление полей Treeview при частом обновлении данных,
 5. Создание таймера путем запуска параллельного Deamon процесса.
+    
 Модуль Binance взят из https://github.com/Bablofil/binance-api с небольшими дополнениями
 
 Файлы "Futures Watcher.py" и "binance_api.py" должны быть сохранены в одной папке.<BR>

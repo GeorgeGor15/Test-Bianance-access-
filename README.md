@@ -51,7 +51,7 @@ RU: Это небольшая часть кода в которой реализ
 7. SET Bot and test connect to Binance<BR>
 8. def config(event): - window resize event<BR>
     
-inside the code:    
+#### Inside the code:    
 ```Python
 #dependencies "Futures Watcher.py": 
 from tkinter import *
